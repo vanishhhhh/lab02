@@ -176,6 +176,9 @@ hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
 hint: You can instead skip this commit: run "git rebase --skip".
 hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
 Could not apply 4d95d08... Update hello_world.cpp
+
+
+
 #include <iostream> //including libraries
 #include <string>
 <<<<<<< HEAD
@@ -196,8 +199,9 @@ main()
 }
 >>>>>>> 5dabf7b (Mozilla format hello world)
 ```
-#### Исправляем
+#### Исправляем(пока все не сойдется)
 ```
+$ subl hello_world.cpp
 $ git add hello_world.cpp
 $ git rebase --continue
 [detached HEAD 6df7760] ss2
