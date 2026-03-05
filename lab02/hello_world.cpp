@@ -1,4 +1,4 @@
-#include <iostream> //подключаем библиотеки
+#include <iostream> //including libraries
 #include <string>
 
 int main(){
@@ -7,4 +7,5 @@ int main(){
 	std::cout<<"Hello world from "<<name;//главная часть проги
 
 	return 0;
+
 }
