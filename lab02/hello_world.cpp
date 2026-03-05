@@ -1,8 +1,6 @@
-
 #include <iostream> //подключаем библиотеки
 #include <string>
 
-<<<<<<< HEAD
 int
 main()
 {
@@ -11,3 +9,4 @@ main()
   std::cout << "Hello world from " << name;//главная часть проги
    return 0;
 }
+
